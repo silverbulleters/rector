@@ -1,0 +1,1 @@
+oscript prepare.os --projectPath D:\tmp\project --storagePath D:\tmp\artsana_repo_test\DEV_ACC_ARTSANA --storage_user ci-bot --storage_psw ci-bot
