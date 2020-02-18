@@ -1,1 +1,1 @@
-oscript prepare.os --projectPath D:\tmp\project --storagePath D:\tmp\storage --storage_user ci-bot --storage_psw ci-bot
+oscript prepare.os --projectPath D:\tmp\project --storagePath ./resources/storage --storage_user ci-bot --storage_psw ci-bot
