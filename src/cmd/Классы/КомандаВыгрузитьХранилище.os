@@ -46,15 +46,15 @@
 
 КомандаПриложения.Опция("temp-ib-user", "", "пользователь временной информационной базы")
 	.ТСтрока()
-	.ВОкружении("PREPARE_BASE_USR PREPARE_BASE_USER");
+	.ВОкружении("PREPARE_TEMP_BASE_USR PREPARE_BASE_USER");
 
 КомандаПриложения.Опция("temp-ib-pwd", "", "пароль пользователя временной информационной базы")
 	.ТСтрока()
-	.ВОкружении("PREPARE_BASE_PASSWORD PREPARE_BASE_PWD");
+	.ВОкружении("PREPARE_TEMP_BASE_PASSWORD PREPARE_BASE_PWD");
 
 КомандаПриложения.Опция("temp-ib-connection", "", "путь подключения к  временной информационной базе")
 	.ТСтрока()
-	.ВОкружении("PREPARE_BASE_CONNECTION PREPARE_BASECONNECTION");
+	.ВОкружении("PREPARE_TEMP_BASE_CONNECTION PREPARE_BASECONNECTION");
 	
 КомандаПриложения.Аргумент("CONFIG", "", "путь к файлу настройки экспорта")
 	.ТСтрока()
