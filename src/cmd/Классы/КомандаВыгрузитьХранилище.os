@@ -57,7 +57,7 @@
 		.ВОкружении("PREPARE_TEMP_BASE_CONNECTION PREPARE_TEMP_BASECONNECTION");
 		
 	КомандаПриложения.Опция("n storage-commit-number", "", "Начальный номер коммита хранилища, с которого начинается экспорт")
-		.ТСтрока()
+		.ТЧисло()
 		.ВОкружении("PREPARE_STORAGE_COMMIT_NUMBER");
 	
 	КомандаПриложения.Аргумент("CONFIG", "", "путь к файлу настройки экспорта")
