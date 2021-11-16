@@ -1,2 +1,3 @@
 resources/storage/*
 .vscode/*
+*.ospx
